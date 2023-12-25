@@ -1,0 +1,12 @@
+nano docker-compose.yml
+docker-compose up -d
+docker run -d -p 80:80 nginx
+docker ps
+nano Dockerfile
+git init
+git add .
+git status
+git commit -m "Task1"
+git branch -M main
+git remote add origin https://github.com/hokc123/uber.git
+git push -u origin main
